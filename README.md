@@ -19,12 +19,12 @@ End the program
 #Developed by: SUGESHWA S
 #RegisterNumber:212224230277
 
-
 import numpy as np
-A=[[1,-3],[3,1]]
-B=np.array([0,10])
+A=[[1,3],[2,5]]
+B=np.array([5,-3])
 C=np.linalg.solve(A,B)
 print(C)
+
 ~~~
 
 ## Output:
